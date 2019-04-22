@@ -169,6 +169,7 @@ nav h1 a {
   text-align: center;
 }
 #restaurants-list li {
+  box-sizing: content-box;
   background-color: #fff;
   border: 2px solid #ccc;
   font-family: Arial, sans-serif;
