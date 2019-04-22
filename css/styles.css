@@ -342,3 +342,14 @@ nav h1 a {
 #reviews-list li p:nth-child(4) {
   margin: 0 15px 15px 15px;
 }
+
+@media screen and (max-width: 415px) {
+  nav {
+    height: auto;
+  }
+
+  .filter-options {
+    flex-direction: column;
+    min-height: 25vh;
+  }
+}
