@@ -342,7 +342,18 @@ nav h1 a {
 #reviews-list li p:nth-child(4) {
   margin: 0 15px 15px 15px;
 }
-
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: red;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0;
+}
 @media screen and (min-width: 320px) and (max-width: 800px) {
   nav {
     height: auto;
