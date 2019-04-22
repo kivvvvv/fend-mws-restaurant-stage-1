@@ -1,5 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body,
 td,
@@ -57,8 +62,6 @@ section {
   display: block;
 }
 #maincontent {
-  display: flex;
-  flex-wrap: wrap;
   background-color: #f3f3f3;
   min-height: 100%;
 }
@@ -74,7 +77,8 @@ section {
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
-  padding: 1rem;
+  height: 4rem;
+  padding: 1rem 0;
   background-color: #252831;
   text-align: center;
 }
@@ -89,12 +93,13 @@ nav h1 a {
   text-transform: uppercase;
 }
 #breadcrumb {
-  padding: 10px 40px 16px;
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  width: 50%;
   list-style: none;
   background-color: #eee;
   font-size: 17px;
   margin: 0;
-  width: calc(50% - 80px);
 }
 
 /* Display list items side by side */
@@ -220,7 +225,7 @@ nav h1 a {
   height: 87%;
   position: fixed;
   right: 0;
-  top: 80px;
+  top: 4rem;
   width: 50%;
 }
 .inside #map {
@@ -262,6 +267,12 @@ nav h1 a {
   text-transform: uppercase;
   width: 90%;
 }
+
+#restaurant-container {
+  margin-top: 6.5rem;
+  padding: 30px 40px 30px;
+}
+
 #restaurant-container,
 #reviews-container {
   border-bottom: 1px solid #d9d9d9;
