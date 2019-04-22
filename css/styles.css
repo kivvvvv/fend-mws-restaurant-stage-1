@@ -96,12 +96,13 @@ nav h1 a {
   height: 2.5rem;
   padding: 0.5rem 1rem;
   width: 50%;
-  list-style: none;
   background-color: #eee;
   font-size: 17px;
   margin: 0;
 }
-
+#breadcrumb ul {
+  text-align: left;
+}
 /* Display list items side by side */
 #breadcrumb li {
   display: inline;
